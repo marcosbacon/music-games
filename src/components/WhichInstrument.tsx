@@ -1,20 +1,25 @@
 import { useState, useMemo } from 'react';
+import instruments, { Instrument } from "./InstrumentsData";
 
 function WhichInstrument () {
-  const items = ["piano", "guitar"];
-  const answer = useMemo(() => Math.random() > 0.5 ? items[0] : items[1], []);
+  const answer = useMemo(
+    () => instruments[Math.floor(Math.random() * instruments.length)],
+    []
+  );
   const [result, setResult] = useState("Standby...");
 
   return (
     <>  
       <h1>Which One?</h1>
       <ul className="list-group d-flex flex-row bd-highlight mb-3">
-        {items.map((item) => (
+        {items.map((instruments) => (
           <li 
             className="d-inline-flex p-2 bd-highlight"
-            key={item}
+            key={instrument.name}
             onClick={() => 
-              item == answer ? setResult("Correct!") : setResult("Wrong!") }
+              instruments.name === answer.name
+                ? setResult("Correct!") 
+                : setResult("Wrong!") }
           >
             <button className="btn btn-light">{item}</button>
           </li>
