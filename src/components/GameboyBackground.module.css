@@ -1,0 +1,9 @@
+.gameboy-bg {
+  position: absolute;
+  z-index: -1;
+  height: 150px;
+}
+
+html {
+  color: blue;
+}
