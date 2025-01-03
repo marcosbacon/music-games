@@ -13,6 +13,7 @@ I'm using this project as a way to learn React. I might end up as a mini-game in
 
 - 📫 How to reach me **kakobacon@gmail.com**
 
-[![Instagram](https://img.shields.io/npm/v/npm.svg?logo=instagram)](https://www.instagram.com/marcos.bacon/)
+[![Soundcloud](https://img.shields.io/badge/SoundCloud-FF3300?logo=soundcloud)](https://soundcloud.com/marcosbacon/sets/composition-portfolio)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram)](https://www.instagram.com/marcos.bacon/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcos-bacon/)
 
