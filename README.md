@@ -1,50 +1,19 @@
-# React + TypeScript + Vite
+# Guess The Instrument 🎹🎸🥁
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I'm using this project as a way to learn React. I might end up as a mini-game in my portfolio site ([currently here](https://marcosbacon.com/)).
 
-Currently, two official plugins are available:
+# Hi 👋, I'm Marcos Bacon
+## A sound designer and app design hobbyist
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 👨‍💻 I’m currently working on [music mini-games for my website.](https://github.com/marcosbacon/music-games)
 
-## Expanding the ESLint configuration
+- 👯 I’m working on my [first album!](https://soundcloud.com/marcosbacon/sets/when-the-water-breaks-o-demo)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- 👨‍💻 All of my projects are available at [https://marcosbacon.com/](https://marcosbacon.com/)
 
-- Configure the top-level `parserOptions` property like this:
+- 📫 How to reach me **kakobacon@gmail.com**
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+[![Soundcloud](https://img.shields.io/badge/SoundCloud-FF3300?logo=soundcloud)](https://soundcloud.com/marcosbacon/sets/composition-portfolio)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram)](https://www.instagram.com/marcos.bacon/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcos-bacon/)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
