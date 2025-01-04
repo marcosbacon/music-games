@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react';
-import instruments, { Instrument } from "./InstrumentsData";
+import instruments from "./InstrumentsData";
 import "./WhichInstrument.module.css";
-import GameboyBackground from "./GameboyBackground";
+//import GameboyBackground from "./GameboyBackground";
 
 function WhichInstrument () {
   const answer = useMemo(
